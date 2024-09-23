@@ -112,6 +112,7 @@ const ClienteForm: React.FC = () => {
 
     return (
         <div style={styles.container}>
+            <img src="/eu.png" alt="easter egg" style={{ width: '20px', height: 'auto', opacity: 0.05, }} />
             <h1 style={styles.title}>Clientes</h1>
 
             <div style={styles.form}>
